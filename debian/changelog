@@ -1,3 +1,8 @@
+shellinabox (2.21-ethos1) unstable; urgency=medium
+  * Configured defaults for ethos
+  * Bumped version to latest git version
+ -- Sling00 <sling00@gmail.com>  Wed, 14 Mar 2018 02:12:24 -0600
+
 shellinabox (2.20) unstable; urgency=medium
 
   * Fixed issue #222, LOGIN service
