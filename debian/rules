@@ -25,8 +25,8 @@ AVAILABLE=debian/shellinabox/etc/shellinabox/options-available
 ENABLED=debian/shellinabox/etc/shellinabox/options-enabled
 override_dh_install:
 	dh_install
-	install -D -m644 shellinabox/black-on-white.css "$(AVAILABLE)/00+Black on White.css"
-	install -D -m644 shellinabox/white-on-black.css "$(AVAILABLE)/00_White On Black.css"
+	install -D -m644 shellinabox/black-on-white.css "$(AVAILABLE)/00_Black on White.css"
+	install -D -m644 shellinabox/white-on-black.css "$(AVAILABLE)/00+White On Black.css"
 	install -D -m644 shellinabox/color.css          "$(AVAILABLE)/01+Color Terminal.css"
 	install -D -m644 shellinabox/monochrome.css     "$(AVAILABLE)/01_Monochrome.css"
 	install -D -m644 debian/README.available        "$(AVAILABLE)/README"
